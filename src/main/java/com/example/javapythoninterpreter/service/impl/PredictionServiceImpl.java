@@ -16,7 +16,7 @@ public class PredictionServiceImpl implements PredictionService {
     @Override
     public String getPrediction(int towers, int players) {
         try (Interpreter interp = new SharedInterpreter()) {
-            String fileUrlPath = "/Users/luisl/Documents/javaPythonInterpreter/src/main/resources/python";
+            String fileUrlPath = "/python";
             interp.exec("import sys");
             interp.exec("sys.path.append('" + fileUrlPath + "')");
             interp.exec("from python import *");

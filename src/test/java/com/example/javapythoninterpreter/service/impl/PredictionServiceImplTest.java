@@ -1,5 +1,6 @@
 package com.example.javapythoninterpreter.service.impl;
 
+
 import com.example.javapythoninterpreter.service.PredictionService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class PredictionServiceImplTest {
-
+  /*
     @Autowired
     PredictionService predictionService;
 
@@ -17,6 +18,6 @@ class PredictionServiceImplTest {
     void getPrediction() {
         String prediction = this.predictionService.getPrediction(13, 212111);
         assertEquals("[0.90410959]", prediction.trim());
-    }
+    }*/
 
 }
